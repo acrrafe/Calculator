@@ -9,7 +9,7 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
     private var tvInput: TextView? = null
     // Numbers
-    private var numZero: Button? = null
+    private var numberZero: Button? = null
     private var numOne: Button? = null
     private var numTwo: Button? = null
     private var numThree: Button? = null
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         // TextView Input
         tvInput = findViewById(R.id.tv_Input)
         // Numbers
-        numZero = findViewById(R.id.numZero)
+        numberZero = findViewById(R.id.numZero)
         numOne = findViewById(R.id.numOne)
         numTwo = findViewById(R.id.numTwo)
         numThree = findViewById(R.id.numThree)
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         equalOper = findViewById(R.id.equalOper)
         decimalOper = findViewById(R.id.decimalOper)
 
-        numZero?.setOnClickListener {onDigit(numOne!!) }
+        numberZero?.setOnClickListener {onDigit(numOne!!) }
         numOne?.setOnClickListener {onDigit(numOne!!) }
         numTwo?.setOnClickListener {onDigit(numTwo!!) }
         numThree?.setOnClickListener { onDigit(numThree!!) }
