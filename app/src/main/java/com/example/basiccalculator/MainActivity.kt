@@ -6,6 +6,10 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 
+
+
+// THIS IS A CALCULATOR APPLICATION WITH BASIC FUNCTIONALITIES
+
 class MainActivity : AppCompatActivity() {
     private var tvInput: TextView? = null
     // Numbers
